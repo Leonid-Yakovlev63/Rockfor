@@ -1,0 +1,15 @@
+.componentWrapper{
+    width: 20px;
+    height: 20px;
+}
+.Denied{
+    width: 20px;
+    height: 20px;
+    
+    background-color: crimson;
+    color: white;
+    
+}
+.Denied:hover{
+    border-radius: 5px;    
+}

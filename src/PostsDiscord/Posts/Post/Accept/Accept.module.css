@@ -1,0 +1,15 @@
+.componentWrapper{
+    width: 20px;
+    height: 20px;
+}
+.Accept{
+    width: 20px;
+    height: 20px;
+    
+    background-color: rgb(151, 219, 48);
+    color: white;
+    
+}
+.Accept:hover{
+    border-radius: 5px;    
+}

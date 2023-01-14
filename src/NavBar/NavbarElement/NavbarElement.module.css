@@ -1,0 +1,19 @@
+.navLinkWrapper{
+    padding: 10px;
+    text-align: center;
+    background:#616161;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a :hover{
+    text-decoration: none;
+    color: white;
+}
+.navLinkWrapper:hover{
+    background:#e8c219;
+    filter: drop-shadow(0 0 5px #e4ba10);
+}
