@@ -1,7 +1,6 @@
 import React from "react";
-import Accept from "./Accept/Accept";
-import Denied from "./Denied/Denied";
 import s from "./Post.module.css";
+import Vote from "./Vote/Vote";
 
 const Post = (props) => {
     return (
@@ -16,10 +15,7 @@ const Post = (props) => {
             <div className={s.content}>
                 {props.content}
             </div>
-            <div className={s.vote}>
-                <div><Accept /></div>
-                <div><Denied /></div>
-            </div>
+            <Vote />
         </div>
     </div>
 );
