@@ -4,10 +4,6 @@ import s from "./Posts.module.css";
 import { useState } from "react";
 const Posts = (props) => {
 
-    fetch('https://jsonplaceholder.typicode.com/todos/1')
-      .then(response => response.json())
-      .then(json => console.log(json))
-
     const [posts, setPost] = useState([
         {id : 1, userName : "Рокфор",title: "Случайный факт:", content: "Bugatti Veyron может проехать футбольное поле за одну секунду."},
         {id : 1, userName : "Рокфор",title: "Случайный факт:", content: "В Германии морских котиков называют морскими собаками."},
