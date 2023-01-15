@@ -25,10 +25,4 @@
 .content:hover{
     color: white;
 }
-.vote{
-    margin-left: 500px;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    display: grid;
-    grid-template-columns: 2rem 2rem;
-}
+
