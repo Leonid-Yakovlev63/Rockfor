@@ -18,7 +18,7 @@ const Posts = (props) => {
         {id : 1, userName : "Рокфор",title: "Случайный факт:", content: "Кровь пьют только самки комаров. Однако до свадьбы они не прочь попить воды или сок растений. Самцы питаются этим на протяжении всей своей жизни."},
     ]);
 
-    let postsList = posts.map(d => <Post d = {d.id} title ={d.title} userName={d.userName} image = {d.image} content = {d.content}/>    );
+    let postsList = posts.map(p => <Post p = {p.id} title ={p.title} userName={p.userName} image = {p.image} content = {p.content}/>    );
 
     return (
     <div className={s.LentBody}>    
