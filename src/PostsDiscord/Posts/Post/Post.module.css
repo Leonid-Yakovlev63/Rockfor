@@ -8,9 +8,7 @@
 .userName{
     color: #e8c219;
 }
-.userName :hover{
-    color: white;
-}
+
 .title{
     margin-top: 1%;
     color: rgb(114, 114, 114);
@@ -22,9 +20,7 @@
     padding: 10px;
     border-radius: 15px;
 }
-.content:hover{
-    color: white;
-}
+
 .vote{
     display: grid;
     grid-template-columns: 2fr 2fr;
