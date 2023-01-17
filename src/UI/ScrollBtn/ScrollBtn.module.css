@@ -1,0 +1,12 @@
+.btn{
+    padding: 15px;
+    background-color: #161616;
+    border: 0;
+    width: 40%;
+}
+.btn h3{
+    color: #616161;
+}
+.btn h3:hover{
+    color: #e8c219;
+}

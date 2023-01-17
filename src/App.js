@@ -6,7 +6,8 @@ import Main from './Main/Main';
 import PostsVK from './PostsVK/PostsVK';
 import PostsDiscord from './PostsDiscord/PostsDiscord';
 import Settings from './Settings/Settings';
-function App() {
+import CreatePost from './CreatePost/CreatePost';
+const App = () => {
   return (
   <BrowserRouter >
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="main" element={<Main />} />
+        <Route path="createPost" element={<CreatePost />} />
         <Route path="postsVK" element={<PostsVK />} />
         <Route path="postsDiscord" element={<PostsDiscord />} />
         <Route path="settings" element={<Settings />} />

@@ -9,6 +9,7 @@ const NavBar = (props) => {
     <div className={s.navWrapper}>
         <div className={s.navLinks}>
             <NavLink to = 'main' ><NavbarElement linkText='Главная'/></NavLink>
+            <NavLink to = 'createPost'><NavbarElement linkText='Создать пост'/></NavLink>
             <NavLink to = 'postsVK'><NavbarElement linkText='Посты VK'/></NavLink>
             <NavLink to = 'postsDiscord'><NavbarElement linkText='Посты Discord'/></NavLink>
             <NavLink to = 'settings'><NavbarElement linkText='Настройки'/></NavLink>

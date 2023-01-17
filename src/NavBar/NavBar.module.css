@@ -5,7 +5,7 @@
     position: relative;
 }
 .navLinks{
-    overflow: scroll auto;
+    /*overflow: scroll auto;*/
     margin-bottom: 4rem;
     
     padding: 5px;
@@ -15,7 +15,7 @@
 } 
 .buttons{
     position: fixed;
-    margin-top: 22%;
+    margin-top: 18%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
