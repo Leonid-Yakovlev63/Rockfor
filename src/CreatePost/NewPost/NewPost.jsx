@@ -15,7 +15,6 @@ const NewPost = () => {
             </div>
             <TextArea />
             <Input placeholder = "Ссылка на картинку" type="url"/>
-            
         </div>
     
   )
