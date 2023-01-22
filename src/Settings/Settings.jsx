@@ -1,11 +1,10 @@
 import React from 'react'
+import PageTitle from '../UI/PageTitle/PageTitle';
 import s from './Settings.module.css';
 const Settings = () => {
   return (
     <div className={s.mainWrapper}>
-    <center>
-      <h1 className={s.title}>Настройки</h1>
-    </center>    
+     <PageTitle title = "Настройки"/>
     </div>
   )
 }

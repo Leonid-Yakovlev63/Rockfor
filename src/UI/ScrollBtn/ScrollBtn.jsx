@@ -11,7 +11,7 @@ const handlerScrollUp = () => {
 const ScrollBtn = () => {
   
   return (
-        <button className={s.btn} onClick={ handlerScrollUp}><h3>Вернуться в начало страницы</h3></button>
+        <button className={s.btn} onClick={ handlerScrollUp }><h3>Вернуться в начало страницы</h3></button>
   )
 }
 export default ScrollBtn;

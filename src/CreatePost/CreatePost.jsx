@@ -1,11 +1,12 @@
 import React from 'react'
 import s from './CreatePost.module.css';
+import PageTitle from '../UI/PageTitle/PageTitle';
+import NewPost from './NewPost/NewPost';
 const CreatePost = () => {
   return (
     <div className={s.mainWrapper}>
-    <center>
-      <h1 className={s.title}>Создать пост</h1>
-    </center>    
+    <PageTitle title = "Создать пост"/>
+    <NewPost />    
     </div>
   )
 }

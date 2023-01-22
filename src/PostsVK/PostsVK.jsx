@@ -1,11 +1,10 @@
 import React from 'react'
+import PageTitle from '../UI/PageTitle/PageTitle';
 import s from './PostsVK.module.css';
 const PostsVK = () => {
   return (
     <div className={s.mainWrapper}>
-    <center>
-      <h1 className={s.title}>Посты VK</h1>
-    </center>    
+    <PageTitle title = "Посты VK"/>   
     </div>
   )
 }
