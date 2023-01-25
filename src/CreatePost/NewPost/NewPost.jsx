@@ -2,9 +2,8 @@ import React from 'react'
 import Input from '../../UI/Input/Input';
 import TextArea from '../../UI/TextArea/TextArea';
 import ColorSelector from '../../UI/ColorSelector/ColorSelector';
-import DateInput from '../../UI/DateInput/DateInput';
 import s from './NewPost.module.css';
-import CheckBoxes from './Checkboxes/Checkboxes';
+import SelectDate from './SelectDate/SelectDate';
 const NewPost = () => {
   return (
         <form className={s.compnentWrapper}>
@@ -13,7 +12,7 @@ const NewPost = () => {
             </div>
             <div className={s.topLevel}>
                 <div className={s.inputTitle}>
-                    <Input placeholder = "Заголовок (не обязателен)"/>
+                    <Input placeholder = "Заголовок (не обязателен)" />
                 </div>
                 <div className={s.ColorSelector}>
                     <ColorSelector />
@@ -27,8 +26,7 @@ const NewPost = () => {
                     <Input placeholder = "Ссылка на картинку" type="url"/>
                 </div>
                 <div className={s.inputDate}>
-                    <DateInput />
-                    <CheckBoxes />
+                    <SelectDate />
                 </div>
             </div>
             

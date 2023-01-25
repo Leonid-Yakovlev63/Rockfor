@@ -1,0 +1,11 @@
+.componentWrapper{
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #616161;
+    width: 23%;
+}
+.switch{
+    margin-top: 5%;
+}
