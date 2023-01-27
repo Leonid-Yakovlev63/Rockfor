@@ -27,6 +27,7 @@ const NewPost = () => {
                 </div>
                 <div className={s.inputDate}>
                     <SelectDate />
+                    
                 </div>
             </div>
             

@@ -1,6 +1,7 @@
 import React from 'react'
 import DateInput from '../../../UI/DateInput/DateInput';
 import Switch from '../../../UI/Switch/Switch';
+import Interval from './Interval/Interval';
 import s from './SelectDate.module.css';
 const SelectDate = () => {
   return (
@@ -14,6 +15,7 @@ const SelectDate = () => {
                 <Switch />
             </div>  
         </center>
+        <Interval />
     </div>
     
   )

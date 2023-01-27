@@ -1,0 +1,10 @@
+.componentWrapper{
+    background-color: #616161;
+}
+.componentTitle{
+    font-size: 75%;
+}
+.hrLine{
+    border: none;
+	border-top: 1px solid #333;
+}
