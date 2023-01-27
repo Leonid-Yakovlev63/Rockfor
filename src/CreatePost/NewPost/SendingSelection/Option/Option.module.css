@@ -1,0 +1,14 @@
+.optionWrapper{
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    width: 100%;
+}
+.option {
+    background-color: #616161;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding: 15px;
+}

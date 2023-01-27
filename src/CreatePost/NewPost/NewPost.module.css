@@ -16,5 +16,17 @@
     margin-top: 1%;
 }
 .inputDate{
+    height: 100%;
     margin-top: 2%;
+}
+.selector{
+    margin-top: 1%;
+}
+.optionsLevel{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-column-gap: 5px;
+}
+.submitButton{
+    margin-top: 1%;
 }

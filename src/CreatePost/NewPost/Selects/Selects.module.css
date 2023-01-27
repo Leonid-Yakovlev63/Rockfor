@@ -6,6 +6,8 @@
     background-color: #616161;
     width: 100%;
 }
-.switch{
-    margin-top: 5%;
+.selects{
+    display: grid;
+    grid-template-columns: 20fr 20fr;
+    grid-column-gap: 10px;
 }

@@ -4,6 +4,8 @@ import TextArea from '../../UI/TextArea/TextArea';
 import ColorSelector from '../../UI/ColorSelector/ColorSelector';
 import s from './NewPost.module.css';
 import SelectDate from './SelectDate/SelectDate';
+import Selects from './Selects/Selects';
+import Submit from '../../UI/Submit/Submit';
 const NewPost = () => {
   return (
         <form className={s.compnentWrapper}>
@@ -25,12 +27,20 @@ const NewPost = () => {
                 <div className={s.inputLink}>
                     <Input placeholder = "Ссылка на картинку" type="url"/>
                 </div>
+            </div>
+            <div className={s.optionsLevel}>
                 <div className={s.inputDate}>
                     <SelectDate />
-                    
+                </div>
+                <div className={s.selector}>
+                    <Selects />
                 </div>
             </div>
-            
+            <center>
+                <div className={s.submitButton}>
+                    <Submit />
+                </div>
+            </center>   
         </form>
     
   )

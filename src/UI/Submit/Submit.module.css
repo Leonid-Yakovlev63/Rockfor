@@ -1,0 +1,11 @@
+.submitButton{
+    padding: 5px;
+    border-radius: 15px;
+    width: 40%;
+    border-color: #adff2f;
+    background-color: #84be2e;
+}
+
+h4:hover{
+    color: white;
+}
