@@ -4,7 +4,7 @@ import s from './Main.module.css';
 const Main = () => {
   return (
     <div className={s.mainWrapper}>
-      <PageTitle title = "Главная"/>
+      <PageTitle title = "Главнаяssss"/>
     </div>
   )
 }
