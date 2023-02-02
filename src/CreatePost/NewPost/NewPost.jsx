@@ -6,8 +6,8 @@ import s from './NewPost.module.css';
 import SelectDate from './SelectDate/SelectDate';
 import Selects from './Selects/Selects';
 import Submit from '../../UI/Submit/Submit';
-const NewPost = () => {
-  return (
+const NewPost = ({state, setState}) => {
+    return (
         <form className={s.compnentWrapper}>
             <div className={s.compnentTitle}>
                 <h4>Новый пост</h4>
@@ -30,7 +30,7 @@ const NewPost = () => {
             </div>
             <div className={s.optionsLevel}>
                 <div className={s.inputDate}>
-                    <SelectDate />
+                    <SelectDate state={state} setState={setState}/>
                 </div>
                 <div className={s.selector}>
                     <Selects />

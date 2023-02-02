@@ -1,10 +1,12 @@
-import React from 'react'
+import React 
+//, { useState } 
+from 'react'
 import DateInput from '../../../UI/DateInput/DateInput';
 import Switch from '../../../UI/Switch/Switch';
 import Interval from './Interval/Interval';
 import s from './SelectDate.module.css';
 
-const SelectDate = () => {
+const SelectDate = ({state, setState}) => {
   return (
     <div className={s.componentWrapper}>
         <center>
@@ -13,11 +15,10 @@ const SelectDate = () => {
                 <DateInput />
             </div>
             <div className={s.switch}>
-                <Switch />
+                <Switch state={state} setState={setState}/>
             </div>  
         </center>
-        <Interval />
-        
+        <Interval state={state}/>
     </div>
     
   )
