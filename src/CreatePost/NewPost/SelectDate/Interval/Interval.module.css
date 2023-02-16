@@ -1,5 +1,9 @@
 .componentWrapper{
     background-color: #616161;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .componentWrapper[disabled]
 {

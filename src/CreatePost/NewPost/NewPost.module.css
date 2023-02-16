@@ -1,11 +1,24 @@
 .compnentWrapper{
-    margin-left: 30%;
+    margin: 0 auto;
     padding: 10px;
     margin-top: 2%;
     border-radius: 15px;
     background-color: #2b2b2b;
     width: 40%;
     height: 80%;
+}
+
+
+@media (max-width: 1200px) {
+    .compnentWrapper{ 
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .compnentWrapper{ 
+        width: 95%;
+    }
 }
 .compnentTitle{
     color: #e8c219;
@@ -27,6 +40,18 @@
     grid-template-columns: 2fr 10fr;
     grid-column-gap: 5px;
 }
+
+
+
 .submitButton{
     margin-top: 1%;
+}
+
+
+@media (max-width: 1200px) {
+    .optionsLevel{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 5px;
+    }
 }

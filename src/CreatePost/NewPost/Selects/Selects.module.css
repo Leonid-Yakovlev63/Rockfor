@@ -11,3 +11,12 @@
     grid-template-columns: 20fr 20fr;
     grid-column-gap: 10px;
 }
+
+
+@media (max-width: 1200px) {
+    .selects{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}

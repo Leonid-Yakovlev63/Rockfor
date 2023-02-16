@@ -14,3 +14,22 @@
   background: #616161;
   border-radius: 15px;
 }
+
+
+@media (max-width: 768px) {
+  .App{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+  }
+  .navBar {
+    position: absolute;
+    left: -165px;
+    transition: left 1s ease;
+  }
+  .navBar--active {
+    left: 0px;
+  }
+}

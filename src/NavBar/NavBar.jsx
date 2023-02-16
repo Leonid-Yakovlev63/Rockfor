@@ -13,6 +13,13 @@ const NavBar = (props) => {
             <NavLink to = 'postsVK'><NavbarElement linkText='Посты VK'/></NavLink>
             <NavLink to = 'postsDiscord'><NavbarElement linkText='Посты Discord'/></NavLink>
             <NavLink to = 'settings'><NavbarElement linkText='Настройки'/></NavLink>
+            <NavLink to = 'settings'><NavbarElement linkText='Настройки'/></NavLink>
+            <NavLink to = 'settings'><NavbarElement linkText='Настройки'/></NavLink>
+            <NavLink to = 'settings'><NavbarElement linkText='Настройки'/></NavLink>
+            <NavLink to = 'settings'><NavbarElement linkText='Настройки'/></NavLink>
+            <NavLink to = 'settings'><NavbarElement linkText='Настройки'/></NavLink>
+            <NavLink to = 'settings'><NavbarElement linkText='Настройки'/></NavLink>
+            <NavLink to = 'settings'><NavbarElement linkText='Настройки'/></NavLink>
         </div>
         <div className={s.buttons}>
           <CirlceButton />
